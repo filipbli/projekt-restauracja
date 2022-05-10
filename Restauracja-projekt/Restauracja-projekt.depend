@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1652210852 source:c:\users\wikto\desktop\szkola f\projekty\programowanie projekt restauracja\restauracja\restauracja-projekt\main.cpp
+	<iostream>
+	<windows.h>
+	"Menu.h"
+
+1652210776 c:\users\wikto\desktop\szkola f\projekty\programowanie projekt restauracja\restauracja\restauracja-projekt\menu.h
+
+1652210782 source:c:\users\wikto\desktop\szkola f\projekty\programowanie projekt restauracja\restauracja\restauracja-projekt\menu.cpp
+	"Menu.h"
+	<iostream>
+	<windows.h>
+
