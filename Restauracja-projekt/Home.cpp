@@ -26,6 +26,11 @@ void Home::wyswietlHome()
             Menu::wyswietlMenu();
             powrot();
             break;
+        case 2:
+            system("CLS");
+            Menu::wyswietlMenu();
+            Zamowienia::zamow();
+            powrot();
         default:
             cout << "ERROR" << endl;
             break;

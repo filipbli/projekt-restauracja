@@ -2,14 +2,17 @@
 #include <windows.h>
 #include "Home.h"
 #include "Menu.h"
+#include "Zamowienia.h"
 
 using namespace std;
 
 int main()
 {
+
     Menu menu;
     Home home;
-    home.wyswietlHome();
+    Zamowienia zamowienie;
 
+    home.wyswietlHome();
     return 0;
 }

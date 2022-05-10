@@ -8,10 +8,6 @@ class Menu
         virtual ~Menu();
         void wyswietlMenu();
         void ukryjMenu();
-        void zamow();
-
-        int nr_zamowienia;
-        int ilosc_zamowienia;
     protected:
 
     private:

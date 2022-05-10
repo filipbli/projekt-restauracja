@@ -23,14 +23,6 @@ void Menu::wyswietlMenu()
     cout << "|____________________________________________|" << endl;
 }
 
-void Menu::zamow()
-{
-    cout << "Wybierz numer: " << endl;
-    cin >> nr_zamowienia;
-    cout << "Podaj ilosc: " << endl;
-    cin >> ilosc_zamowienia;
-}
-
 void Menu::ukryjMenu()
 {
     system("CLS");
