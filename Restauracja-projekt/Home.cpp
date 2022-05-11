@@ -17,8 +17,9 @@ void Home::wyswietlHome()
     cout << "| 3 - REZERWACJA |" << endl;
     cout << "| 4 - PRODUKTY   |" << endl;
     cout << "|________________|" << endl;
-    cout << "Wybierz sekcje" << endl;
+    cout << " Wybierz sekcje: ";
     cin >> a;
+
     switch(a)
     {
         case 1:
@@ -31,6 +32,16 @@ void Home::wyswietlHome()
             Menu::wyswietlMenu();
             Zamowienia::zamow();
             powrot();
+            break;
+        case 4:
+            system("CLS");
+            for(int i = 0; i < 7; i++)
+            {
+                cout << Zamowienia::nr_produktu[i] + 1 << ") " << Zamowienia::nazwa_produktu[i] << " " << Zamowienia::cena_produktu[i] << "zl" << endl;
+                cout << "___________________________" << endl;
+            }
+            powrot();
+            break;
         default:
             cout << "ERROR" << endl;
             break;
@@ -41,7 +52,7 @@ void Home::wyswietlHome()
 void Home::powrot()
 {
     int a;
-    cout << "Powrot KLIKNIJ - 1" << endl;
+    cout << "POWROT KLIKNIJ - 1";
     cin >> a;
     if(a == 1)
     {

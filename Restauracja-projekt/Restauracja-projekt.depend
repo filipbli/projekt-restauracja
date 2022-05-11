@@ -1,10 +1,11 @@
 # depslib dependency file v1.0
-1652215493 source:c:\users\wikto\desktop\szkola f\projekty\programowanie projekt restauracja\restauracja\restauracja-projekt\main.cpp
+1652302908 source:c:\users\wikto\desktop\szkola f\projekty\programowanie projekt restauracja\restauracja\restauracja-projekt\main.cpp
 	<iostream>
 	<windows.h>
 	"Home.h"
 	"Menu.h"
 	"Zamowienia.h"
+	"Produkty.h"
 
 1652214203 c:\users\wikto\desktop\szkola f\projekty\programowanie projekt restauracja\restauracja\restauracja-projekt\menu.h
 
@@ -13,18 +14,26 @@
 	<iostream>
 	<windows.h>
 
-1652214594 source:c:\users\wikto\desktop\szkola f\projekty\programowanie projekt restauracja\restauracja\restauracja-projekt\home.cpp
+1652303764 source:c:\users\wikto\desktop\szkola f\projekty\programowanie projekt restauracja\restauracja\restauracja-projekt\home.cpp
 	"Home.h"
 	<iostream>
 	<windows.h>
 
-1652214570 c:\users\wikto\desktop\szkola f\projekty\programowanie projekt restauracja\restauracja\restauracja-projekt\home.h
+1652303574 c:\users\wikto\desktop\szkola f\projekty\programowanie projekt restauracja\restauracja\restauracja-projekt\home.h
 	"Menu.h"
 	"Zamowienia.h"
 
-1652214808 source:c:\users\wikto\desktop\szkola f\projekty\programowanie projekt restauracja\restauracja\restauracja-projekt\zamowienia.cpp
+1652303085 source:c:\users\wikto\desktop\szkola f\projekty\programowanie projekt restauracja\restauracja\restauracja-projekt\zamowienia.cpp
 	"Zamowienia.h"
 	<iostream>
 
-1652214199 c:\users\wikto\desktop\szkola f\projekty\programowanie projekt restauracja\restauracja\restauracja-projekt\zamowienia.h
+1652303056 c:\users\wikto\desktop\szkola f\projekty\programowanie projekt restauracja\restauracja\restauracja-projekt\zamowienia.h
+	"Produkty.h"
+
+1652302672 c:\users\wikto\desktop\szkola f\projekty\programowanie projekt restauracja\restauracja\restauracja-projekt\produkty.h
+	<string>
+
+1652302659 source:c:\users\wikto\desktop\szkola f\projekty\programowanie projekt restauracja\restauracja\restauracja-projekt\produkty.cpp
+	"Produkty.h"
+	<iostream>
 

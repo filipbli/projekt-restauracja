@@ -17,6 +17,7 @@ class Home :public Menu, public Zamowienia
         void zamow();
         int nr_zamowienia;
         int ilosc_zamowienia;
+
     protected:
 
     private:

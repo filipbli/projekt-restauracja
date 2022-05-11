@@ -36,6 +36,8 @@
 		<Unit filename="Home.h" />
 		<Unit filename="Menu.cpp" />
 		<Unit filename="Menu.h" />
+		<Unit filename="Produkty.cpp" />
+		<Unit filename="Produkty.h" />
 		<Unit filename="Zamowienia.cpp" />
 		<Unit filename="Zamowienia.h" />
 		<Unit filename="main.cpp" />
