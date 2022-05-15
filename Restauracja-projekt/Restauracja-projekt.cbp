@@ -38,6 +38,8 @@
 		<Unit filename="Menu.h" />
 		<Unit filename="Produkty.cpp" />
 		<Unit filename="Produkty.h" />
+		<Unit filename="Rezerwacja.cpp" />
+		<Unit filename="Rezerwacja.h" />
 		<Unit filename="Zamowienia.cpp" />
 		<Unit filename="Zamowienia.h" />
 		<Unit filename="main.cpp" />

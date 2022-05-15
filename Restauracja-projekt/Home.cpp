@@ -11,13 +11,14 @@ Home::Home()
 
 void Home::wyswietlHome()
 {
-    cout << " ________________" << endl;
-    cout << "| 1 - MENU       |" << endl;
-    cout << "| 2 - ZAMOWIENIA |" << endl;
-    cout << "| 3 - REZERWACJA |" << endl;
-    cout << "| 4 - PRODUKTY   |" << endl;
-    cout << "|________________|" << endl;
-    cout << " Wybierz sekcje: ";
+    cout << " Kentucky Fried Kitties" << endl;
+    cout << "   ________________" << endl;
+    cout << "  | 1 - MENU       |" << endl;
+    cout << "  | 2 - ZAMOWIENIA |" << endl;
+    cout << "  | 3 - REZERWACJA |" << endl;
+    cout << "  | 4 - PRODUKTY   |" << endl;
+    cout << "  |________________|" << endl;
+    cout << "   Wybierz sekcje: ";
     cin >> a;
 
     switch(a)
@@ -31,6 +32,34 @@ void Home::wyswietlHome()
             system("CLS");
             Menu::wyswietlMenu();
             Zamowienia::zamow();
+            powrot();
+            break;
+        case 3:
+            system("CLS");
+            cout << "Zarezerwuj - 1 :: Odrezerwuj - 2";
+            cin >> b;
+            switch(b)
+            {
+                case 1:
+                    Rezerwacja::wyswietlStoliki();
+                    cout << "Zarezerwuj stolik wybierajac numer: ";
+                    cin >> numerRezerwacja;
+                    Rezerwacja::zarezerwuj(numerRezerwacja - 1);
+                    system("CLS");
+                    Rezerwacja::wyswietlStoliki();
+                    break;
+                case 2:
+                    Rezerwacja::wyswietlStoliki();
+                    cout << "Odrezerwuj stolik wybierajac numer: ";
+                    cin >> numerRezerwacja;
+                    Rezerwacja::odrezerwuj(numerRezerwacja - 1);
+                    system("CLS");
+                    Rezerwacja::wyswietlStoliki();
+                    break;
+                default:
+                    cout << "ERROR" << endl;
+                    break;
+            }
             powrot();
             break;
         case 4:
